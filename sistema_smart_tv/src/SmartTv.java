@@ -3,7 +3,7 @@ public class SmartTv {
   private int channel = 1;
   private int volume = 25;
 
-  public void SmartTv() {
+  public SmartTv() {
   }
 
   public boolean isStatus() {
@@ -55,7 +55,7 @@ public class SmartTv {
     if (!this.status) {
       return "SmartTv: " + isStatus();
     }
-    return "SmartTv: " + isStatus() + " at Channel: " + getChannel() + ", and Volume:" + getVolume();
+    return "SmartTv: " + isStatus() + " at Channel: " + getChannel() + " and Volume: " + getVolume();
   }
 
 }

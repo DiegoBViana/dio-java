@@ -6,6 +6,11 @@ public class App {
         // Chamada do metodo reescrito toString da classe para impressão
         System.out.println(smartTv.toString());
 
+        // Alterando status da tv
+        smartTv.setStatus();
+
+        System.out.println(smartTv.toString());
+
         // Alterando volume
         smartTv.setChannelUp();
         smartTv.setChannelDown();
